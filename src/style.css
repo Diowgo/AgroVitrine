@@ -1,0 +1,36 @@
+.car-largura{
+	max-width: 18rem;
+}
+
+.imagem-carrossel{
+/*como o elemento se comporta ao conteiner dele. Cover cubra*/
+	object-fit: cover; 
+/*move a imagem no eixo x e y*/
+	object-position: 0 80%;
+	height: 400px;
+}
+
+.fonte-titulo{
+	font-family: 'Pacifico', cursive;	
+}
+
+
+.texto-cor-especial{
+	color: darkgreen!important;
+}
+
+.botao-cor-especial{
+	background-color: darkgreen;
+	color: white;
+}
+
+.borda-cor-especial{
+	border-color: darkgreen;
+}
+
+.card-posicao-imagem{
+	object-fit: cover; 
+/*move a imagem no eixo x e y*/
+	/*object-position: 0 80%;*/
+	height: 200px;	
+}
