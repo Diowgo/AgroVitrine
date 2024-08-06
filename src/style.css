@@ -11,9 +11,28 @@
 }
 
 .fonte-titulo{
-	font-family: 'Pacifico', cursive;	
+	font-family: "Kanit", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
+.fonte-carrossel {
+	text-shadow: 0 0 10px #000
+}
+
+.card-title {
+	font-family: "Kanit", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.card:hover {
+	transform: scale(105%);
+}
+
+.card {
+	transition: .3s;
+}
 
 .texto-cor-especial{
 	color: darkgreen!important;
